@@ -62,5 +62,7 @@ public class App {
 
         System.out.println("\n\n*** LIMIT ***");
         serviceDao.getAllLimit(2).forEach(System.out::println);
+
+        System.out.println("\\*")
     }
 }
